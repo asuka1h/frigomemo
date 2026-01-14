@@ -14,6 +14,12 @@
 		97041B342AFBEB4E00F8C6F0 /* FrigomemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B332AFBEB4E00F8C6F0 /* FrigomemoTests.swift */; };
 		97041B3E2AFBEB4E00F8C6F0 /* FrigomemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B3D2AFBEB4E00F8C6F0 /* FrigomemoUITests.swift */; };
 		97041B402AFBEB4E00F8C6F0 /* FrigomemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B3F2AFBEB4E00F8C6F0 /* FrigomemoUITestsLaunchTests.swift */; };
+		97041B512AFBEB5000F8C6F0 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B502AFBEB5000F8C6F0 /* FoodItem.swift */; };
+		97041B532AFBEB5100F8C6F0 /* FoodItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B522AFBEB5100F8C6F0 /* FoodItemStore.swift */; };
+		97041B552AFBEB5200F8C6F0 /* AddFoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B542AFBEB5200F8C6F0 /* AddFoodItemView.swift */; };
+		97041B592AFBEB5600F8C6F0 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B582AFBEB5600F8C6F0 /* AuthenticationManager.swift */; };
+		97041B5A2AFBEB5700F8C6F0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B592AFBEB5700F8C6F0 /* LoginView.swift */; };
+		97041B5B2AFBEB5800F8C6F0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97041B5A2AFBEB5800F8C6F0 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		97041B392AFBEB4E00F8C6F0 /* FrigomemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrigomemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97041B3D2AFBEB4E00F8C6F0 /* FrigomemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrigomemoUITests.swift; sourceTree = "<group>"; };
 		97041B3F2AFBEB4E00F8C6F0 /* FrigomemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrigomemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97041B502AFBEB5000F8C6F0 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		97041B522AFBEB5100F8C6F0 /* FoodItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemStore.swift; sourceTree = "<group>"; };
+		97041B542AFBEB5200F8C6F0 /* AddFoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodItemView.swift; sourceTree = "<group>"; };
+		97041B582AFBEB5600F8C6F0 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		97041B592AFBEB5700F8C6F0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		97041B5A2AFBEB5800F8C6F0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				97041B222AFBEB4C00F8C6F0 /* FrigomemoApp.swift */,
 				97041B242AFBEB4C00F8C6F0 /* ContentView.swift */,
+				97041B502AFBEB5000F8C6F0 /* FoodItem.swift */,
+				97041B522AFBEB5100F8C6F0 /* FoodItemStore.swift */,
+				97041B542AFBEB5200F8C6F0 /* AddFoodItemView.swift */,
+				97041B582AFBEB5600F8C6F0 /* AuthenticationManager.swift */,
+				97041B592AFBEB5700F8C6F0 /* LoginView.swift */,
+				97041B5A2AFBEB5800F8C6F0 /* SignUpView.swift */,
 				97041B262AFBEB4E00F8C6F0 /* Assets.xcassets */,
 				97041B282AFBEB4E00F8C6F0 /* Preview Content */,
 			);
@@ -259,6 +277,12 @@
 			files = (
 				97041B252AFBEB4C00F8C6F0 /* ContentView.swift in Sources */,
 				97041B232AFBEB4C00F8C6F0 /* FrigomemoApp.swift in Sources */,
+				97041B512AFBEB5000F8C6F0 /* FoodItem.swift in Sources */,
+				97041B532AFBEB5100F8C6F0 /* FoodItemStore.swift in Sources */,
+				97041B552AFBEB5200F8C6F0 /* AddFoodItemView.swift in Sources */,
+				97041B592AFBEB5600F8C6F0 /* AuthenticationManager.swift in Sources */,
+				97041B5A2AFBEB5700F8C6F0 /* LoginView.swift in Sources */,
+				97041B5B2AFBEB5800F8C6F0 /* SignUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

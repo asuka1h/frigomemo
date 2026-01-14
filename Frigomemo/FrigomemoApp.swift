@@ -1,4 +1,4 @@
-	//
+//
 //  FrigomemoApp.swift
 //  Frigomemo
 //
@@ -6,12 +6,33 @@
 //
 
 import SwiftUI
+import FirebaseCore
 
 @main
 struct FrigomemoApp: App {
+    @StateObject private var authManager = AuthenticationManager()
+    @StateObject private var store = FoodItemStore()
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if authManager.isAuthenticated {
+                ContentView(store: store, authManager: authManager)
+                    .onAppear {
+                        store.startListening()
+                    }
+                    .onDisappear {
+                        store.stopListening()
+                    }
+            } else {
+                LoginView(authManager: authManager)
+                    .onAppear {
+                        store.stopListening()
+                    }
+            }
         }
     }
 }
